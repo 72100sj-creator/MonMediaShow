@@ -20,7 +20,7 @@ MediaShow Photo est une application de diaporama légère et intuitive, conçue 
 1. Assurez-vous d'avoir Python et la bibliothèque `PySide6` installés.
 2. Placez le fichier `main.py` dans le dossier `~/Desktop/MonMediaShow/`.
 3. Lancez l'application via le terminal ou votre script de lancement `.command`.
-
+"Pour lancer l'application, assurez-vous d'avoir installé les dépendances avec la commande : pip install -r requirements.txt"
 ## Structure du projet
 
 * `main.py` : Le cœur de l'application (interface et logique).
