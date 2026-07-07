@@ -1,30 +1,107 @@
-# MediaShow Photo
+MonMediaShow (V1.8)
 
-MediaShow Photo est une application de diaporama légère et intuitive, conçue pour organiser, trier et présenter vos photos simplement.
+MonMediaShow est une application de diaporama simple, légère et stable, conçue pour visualiser vos photos facilement sans modifier vos fichiers originaux.
+🌟 Fonctionnalités principales
 
-## Fonctionnalités principales
+    Diaporama personnalisé : Chargement facile de dossiers entiers ou de fichiers individuels.
 
-* **Chargement flexible** : Importez des photos individuellement ou chargez des dossiers complets.
-* **Organisation dynamique** : Triez vos photos par nom, par date (création ou modification) ou de manière aléatoire.
-* **Gestion de liste** : Visualisez vos photos avec des miniatures, sélectionnez-les pour les supprimer de votre liste de lecture ou prévisualisez-les en grand avant le lancement.
-* **Diaporama interactif** : Lancez vos présentations en plein écran avec une minuterie réglable.
-    * *Contrôles au clavier* :
-        * `Espace` : Pause / Lecture.
-        * `Flèches Gauche/Droite` : Navigation manuelle entre les photos.
-        * `Échap` : Quitter le diaporama.
-* **Playlists** : Sauvegardez vos sélections préférées dans des fichiers de playlist (`.txt`) pour les retrouver plus tard.
-* **Robustesse** : L'application vérifie la validité des images et gère automatiquement les erreurs de lecture pour éviter tout plantage.
+    Transitions fluides : Option pour activer ou désactiver l'effet de fondu.
 
-## Installation et Utilisation
+    Outils d'édition simples : Rotation et effet miroir appliqués à la volée (vos photos originales ne sont pas modifiées).
 
-1. Assurez-vous d'avoir Python et la bibliothèque `PySide6` installés.
-2. Placez le fichier `main.py` dans le dossier `~/Desktop/MonMediaShow/`.
-3. Lancez l'application via le terminal ou votre script de lancement `.command`.
-"Pour lancer l'application, assurez-vous d'avoir installé les dépendances avec la commande : pip install -r requirements.txt"
-## Structure du projet
+    Gestion des playlists : Sauvegardez et rouvrez vos sélections de photos en un clic.
 
-* `main.py` : Le cœur de l'application (interface et logique).
-* `playlists/` : Dossier contenant vos fichiers de sauvegarde de playlists.
+    Organisation intelligente : Tri par nom, date de création, modification ou mode aléatoire.
 
-## Objectif du projet
-Cette application a été créée pour offrir une solution stable, rapide et facile à maintenir pour la gestion quotidienne de photos, en privilégiant l'expérience utilisateur et la fiabilité.
+    Historique : Accédez rapidement aux derniers dossiers que vous avez consultés.
+
+    Sauvegarde automatique : Vos préférences (tri, temps d'affichage) sont conservées d'une session à l'autre.
+
+🚀 Installation
+
+Pour faire fonctionner cette application, vous devez avoir Python installé sur votre ordinateur.
+
+    Assurez-vous d'avoir installé la bibliothèque graphique nécessaire en ouvrant votre terminal (ou invite de commande) et en tapant :
+    Bash
+
+    pip install PySide6
+
+🖥️ Utilisation
+
+    Placez votre fichier main.py dans un dossier dédié sur votre bureau.
+
+    Lancez le programme via votre terminal avec la commande :
+    Bash
+
+    python main.py
+
+    Utilisez les boutons de l'interface pour charger vos photos et configurer votre diaporama.
+
+🛠️ Aide et Astuces
+
+    Glisser-Déposer : Vous pouvez glisser des dossiers directement dans l'application pour les charger.
+
+    Raccourcis clavier (pendant le diaporama) :
+
+        Espace : Mettre en pause / Reprendre.
+
+        Flèche Droite : Photo suivante.
+
+        Flèche Gauche : Photo précédente.
+
+        Échap : Quitter le diaporama.
+
+    Modification : Utilisez les boutons "Rotation" et "Miroir" pour ajuster l'affichage. Ces modifications sont uniquement visuelles et temporaires pour le diaporama.MonMediaShow (V1.8)
+
+MonMediaShow est une application de diaporama simple, légère et stable, conçue pour visualiser vos photos facilement sans modifier vos fichiers originaux.
+🌟 Fonctionnalités principales
+
+    Diaporama personnalisé : Chargement facile de dossiers entiers ou de fichiers individuels.
+
+    Transitions fluides : Option pour activer ou désactiver l'effet de fondu.
+
+    Outils d'édition simples : Rotation et effet miroir appliqués à la volée (vos photos originales ne sont pas modifiées).
+
+    Gestion des playlists : Sauvegardez et rouvrez vos sélections de photos en un clic.
+
+    Organisation intelligente : Tri par nom, date de création, modification ou mode aléatoire.
+
+    Historique : Accédez rapidement aux derniers dossiers que vous avez consultés.
+
+    Sauvegarde automatique : Vos préférences (tri, temps d'affichage) sont conservées d'une session à l'autre.
+
+🚀 Installation
+
+Pour faire fonctionner cette application, vous devez avoir Python installé sur votre ordinateur.
+
+    Assurez-vous d'avoir installé la bibliothèque graphique nécessaire en ouvrant votre terminal (ou invite de commande) et en tapant :
+    Bash
+
+    pip install PySide6
+
+🖥️ Utilisation
+
+    Placez votre fichier main.py dans un dossier dédié sur votre bureau.
+
+    Lancez le programme via votre terminal avec la commande :
+    Bash
+
+    python main.py
+
+    Utilisez les boutons de l'interface pour charger vos photos et configurer votre diaporama.
+
+🛠️ Aide et Astuces
+
+    Glisser-Déposer : Vous pouvez glisser des dossiers directement dans l'application pour les charger.
+
+    Raccourcis clavier (pendant le diaporama) :
+
+        Espace : Mettre en pause / Reprendre.
+
+        Flèche Droite : Photo suivante.
+
+        Flèche Gauche : Photo précédente.
+
+        Échap : Quitter le diaporama.
+
+    Modification : Utilisez les boutons "Rotation" et "Miroir" pour ajuster l'affichage. Ces modifications sont uniquement visuelles et temporaires pour le diaporama.
