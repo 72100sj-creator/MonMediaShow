@@ -1,4 +1,24 @@
-MonMediaShow (V1.8)
+# MediaShow Photo (V2.6.3)
+
+MediaShow Photo est une application de diaporama photo légère, stable et moderne, conçue pour une utilisation quotidienne simple et intuitive.
+
+## Fonctionnalités
+- **Diaporama fluide** : Transitions personnalisables (Fondu, Zoom, Déplacement lent).
+- **Interface Moderne** : Design sombre et épuré avec PySide6.
+- **Gestion simple** : Ajoutez des photos ou des dossiers par simple glisser-déposer.
+- **Setlist propre** : Aucune photo chargée automatiquement au démarrage pour une liberté totale.
+- **Personnalisable** : Choix de la durée, de l'écran de projection, et options d'affichage (horloge, compteur, etc.).
+
+## Prérequis
+Pour lancer l'application, vous devez avoir **Python** installé sur votre ordinateur.
+
+## Installation
+1. Téléchargez ou clonez le projet sur votre ordinateur.
+2. Ouvrez un terminal dans le dossier du projet.
+3. Installez la bibliothèque nécessaire (PySide6) avec la commande suivante :
+
+```bash
+pip install PySide6MonMediaShow (V1.8)
 
 MonMediaShow est une application de diaporama simple, légère et stable, conçue pour visualiser vos photos facilement sans modifier vos fichiers originaux.
 🌟 Fonctionnalités principales
